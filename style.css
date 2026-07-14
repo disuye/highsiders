@@ -56,6 +56,10 @@ body {
     width: 100%;
     text-align: center;
 }
+.logo {
+  width: calc(100px + 50vw);
+  max-width: 500px;
+}
 
 .links {
     bottom: 3.0rem;
