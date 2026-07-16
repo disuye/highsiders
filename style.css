@@ -12,7 +12,7 @@
 body {
     background: url('../blur.png') fixed top center no-repeat;
     background-color: black;
-    background-size: 100% 300px;
+    background-size: 100% 100%;
     font-family: "Barlow", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1rem;;
@@ -29,8 +29,8 @@ body {
   display: block;
   width: 100vw;
   height: 100vh;
-  opacity: 0.5;
-  mix-blend-mode: overlay;
+  opacity: 0.6;
+  mix-blend-mode: darken;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -79,11 +79,11 @@ body {
 }
 
 .subtitle {
-  font-size: 20%;
+  font-size: calc(0.7rem + 10%);
   letter-spacing: 0.2rem;
   word-break: keep-all;
   white-space: nowrap;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .japanese,
